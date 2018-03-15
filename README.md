@@ -3,12 +3,12 @@
 
 # Usage
 
-`docker run --rm ethkey CMD [OPTS]`
+`docker run --rm electricwarr/ethkey CMD [OPTS]`
 
 Example:
 
 ```
-$ docker run --rm ethkey --help
+$ docker run --rm electricwarr/ethkey --help
 Ethereum keys generator.
   Copyright 2016, 2017 Parity Technologies (UK) Ltd
 
@@ -39,8 +39,8 @@ Commands:
 ```
 
 - `build.sh` builds the image
-- `debug.sh` drops into a shell inside an instance of your latest build
-- `run.sh`   shortcut for `docker run...`, use like `./run.sh --help`
+- `debug.sh` drops into a shell inside an instance of your latest local build
+- `run.sh`   shortcut for `docker run...` for your local version, use like `./run.sh --help`
 
 # Dockerfile
 
